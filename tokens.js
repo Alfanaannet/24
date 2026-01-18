@@ -8,7 +8,7 @@ export default [
         autoReconnect: {
             enabled: true,
             delay: 5, // ثواني
-            maxRetries: 1000,
+            maxRetries: 100000000,
         },
         presence: {
             status: "idle",
