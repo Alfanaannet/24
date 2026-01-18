@@ -1,0 +1,18 @@
+// status can be "online", "idle", "dnd", or "invisible" or "offline"
+export default [
+    {
+        channelId: "1315791839663620198",
+        serverId: "1315791837235122246",
+        token: process.env.token1,
+        selfDeaf: true,
+        autoReconnect: {
+            enabled: true,
+            delay: 5, // ثواني
+            maxRetries: 1000,
+        },
+        presence: {
+            status: "idle",
+        },
+        selfMute: true,
+    },
+];
