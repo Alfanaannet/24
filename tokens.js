@@ -7,8 +7,8 @@ export default [
         selfDeaf: true,
         autoReconnect: {
             enabled: true,
-            delay: 5, // ثواني
-            maxRetries: 100000000,
+            delay: 1, // ثواني
+            maxRetries: 10000000000,
         },
         presence: {
             status: "idle",
